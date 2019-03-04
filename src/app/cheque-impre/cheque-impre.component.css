@@ -1,0 +1,88 @@
+body{
+    font-family: Arial;
+    
+  }
+  /*orden: top right bottom left*/
+div{
+--otra:green;
+font-family: Arial;
+}
+p{
+margin: 1cm 1cm 0cm 0cm;
+height: 0.4cm;
+}
+
+.p1{/*primer encabezado y corre lo de abajo*/
+display: grid;
+grid-template-columns: 13.5cm 2.7cm;
+/*top right bottom left*/
+margin: 2.6cm 0cm 0cm 2.5cm;
+
+}
+
+.fecha{/**fecha general**/
+width: 12.5cm;
+height: 0.4cm;
+margin-right: 1cm;
+
+}
+
+.montoNum{/*monto en numeros al final de la primera fila*/
+width: 2.7cm;
+height: 0.4cm;
+}
+
+.p2{/*segunda fila/nombre de la persona*/
+margin-top: 0.4cm;
+margin-left: 2.6cm;
+width: 15.5cm;
+height: 0.4cm;    
+}
+
+.p3{/**tercera fila/monto a pagar en letras**/
+margin-top: 0.1cm;
+margin-left: 2.3cm;
+width: 14.8cm;
+height: 0.4cm;
+margin-bottom: 4.3cm;
+}
+.p4{/*fila del area de voucher y cuentas*/
+height: 10.5cm;
+margin-left: 0.2cm;
+}
+.p5{/*fila de total en numeros*/
+margin-left: 13.2cm;
+display: grid;
+grid-template-columns: 2.8cm 2.8cm;
+}
+.debe {
+width: 2.6cm;
+text-align: center;
+margin-left: 0.2cm; 
+}
+.haber{
+width: 2.6cm;
+text-align: center;
+margin-left: 0.2cm
+}
+.voucher{
+display: grid;
+grid-template-columns: 2.3cm 10.8cm 2.8cm 2.8cm;
+
+}
+.cuenta{
+width: 2.1cm;
+margin-left: 0.2cm;
+text-align: center;    
+}
+.descripcion{
+width: 10.6cm;
+margin-left: 0.1cm;
+}
+.cuentaMadre{
+margin-bottom: 0.5cm;
+}
+.comentario{
+font-size: small;
+font:  bold 12px/14px Arial, serif;
+}

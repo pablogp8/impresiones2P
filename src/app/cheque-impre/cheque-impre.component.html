@@ -1,0 +1,86 @@
+<div id="print-section" class="ocultarPrint">
+  <div class="p1">
+    <div class="fecha">{{chequeU.datos.fecha_letras}}</div>
+    <div class="montoNum">**{{chequeU.datos.liquido_formateado}}**</div>
+  </div>
+  <div class="p2">{{chequeU.datos.nombre_deudor}}</div>
+  <div class="p3">**{{chequeU.datos.liquido_letras}}**</div>
+  <div class="p4">
+    <div class="cuentaMadre">
+      <div class="voucher primariaC">
+        <div class="cuenta">{{chequeU.uno.codigo_superior}}</div>
+        <div class="descripcion">{{chequeU.uno.nombre_superior}}</div>
+        <div class="debe"></div>
+        <div class="haber"></div>
+      </div>
+      <div class="voucher secundarioC">
+        <div class="cuenta">{{chequeU.uno.subcuentas.uno.codigo}}</div>
+        <div class="descripcion">{{chequeU.uno.subcuentas.uno.nombre}}
+          <div class="comentario">{{chequeU.uno.subcuentas.uno.comentario}}</div>
+        </div>
+        <div class="debe">{{chequeU.uno.subcuentas.uno.debe}}</div>
+        <div class="haber"></div>
+      </div>
+    </div>
+    <div class="cuentaMadre">
+      <div class="voucher primariaC">
+        <div class="cuenta">{{chequeU.dos.codigo_superior}}</div>
+        <div class="descripcion">{{chequeU.dos.nombre_superior}} </div>
+        <div class="debe"></div>
+        <div class="haber"></div>
+      </div>
+      <div class="voucher secundarioC">
+        <div class="cuenta">{{chequeU.dos.subcuentas.uno.codigo}}</div>
+        <div class="descripcion">{{chequeU.dos.subcuentas.uno.nombre}}
+          <div class="comentario">{{chequeU.dos.subcuentas.uno.comentario}}</div>
+        </div>
+        <div class="debe"></div>
+        <div class="haber">{{chequeU.dos.subcuentas.uno.haber}}</div>
+      </div>
+    </div>
+    <div class="cuentaMadre">
+      <div class="voucher primariaC">
+        <div class="cuenta">{{chequeU.tres.codigo_superior}}</div>
+        <div class="descripcion">{{chequeU.tres.nombre_superior}}</div>
+        <div class="debe"></div>
+        <div class="haber"></div>
+      </div>
+      <div class="voucher secundarioC">
+        <div class="cuenta">{{chequeU.tres.subcuentas.uno.codigo}}</div>
+        <div class="descripcion">{{chequeU.tres.subcuentas.uno.nombre}}
+          <div class="comentario">{{chequeU.tres.subcuentas.uno.comentario}}</div>
+        </div>
+        <div class="debe"></div>
+        <div class="haber">{{chequeU.tres.subcuentas.uno.haber}}</div>
+      </div>
+    </div>
+    <div class="cuentaMadre">
+      <div class="voucher primariaC">
+        <div class="cuenta">{{chequeU.cuatro.codigo_superior}}</div>
+        <div class="descripcion">{{chequeU.cuatro.nombre_superior}}</div>
+        <div class="debe"></div>
+        <div class="haber"></div>
+      </div>
+      <div class="voucher secundarioC">
+        <div class="cuenta">{{chequeU.cuatro.subcuentas.uno.codigo}}</div>
+        <div class="descripcion">{{chequeU.cuatro.subcuentas.uno.nombre}}
+          <div class="comentario">{{chequeU.cuatro.subcuentas.uno.comentario}}</div>
+        </div>
+        <div class="debe"></div>
+        <div class="haber">{{chequeU.cuatro.subcuentas.uno.haber}}</div>
+      </div>
+      <div class="voucher secundarioC">
+        <div class="cuenta">{{chequeU.cuatro.subcuentas.dos.codigo}}</div>
+        <div class="descripcion">{{chequeU.cuatro.subcuentas.dos.nombre}}
+          <div class="comentario">{{chequeU.cuatro.subcuentas.dos.comentario}}</div>
+        </div>
+        <div class="debe"></div>
+        <div class="haber">{{chequeU.cuatro.subcuentas.dos.haber}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="p5">
+    <div class="debe">{{chequeU.uno.subcuentas.uno.debe}}</div>
+    <div class="haber">{{chequeU.uno.subcuentas.uno.debe}}</div>
+  </div>
+</div>
