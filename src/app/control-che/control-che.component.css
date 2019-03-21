@@ -1,0 +1,105 @@
+.OFICIO2{
+    width: 33cm;
+    height: 19.6cm;
+    margin: 1cm 0cm 1cm 1cm; 
+}
+.D12{
+    display: grid;
+    width: 8cm;
+    text-align: right;
+}
+.encab1{
+    display: grid;
+    width: 5cm;
+    grid-template-columns: 20cm 10cm;
+}
+.encab2{
+    display: grid;
+    width: 30cm;
+    text-align: left;    
+}
+.encab3{
+    width: 32cm;
+    text-align: center;
+    font:  bold 16px/14px Arial, serif;
+    margin-bottom: 0.1cm;
+    margin-top: 0.5cm;
+}
+.encab4{
+    width: 32cm;
+    text-align: center;
+    font:  bold 14px/12px Arial, serif;
+    margin-bottom: 0.1cm;
+    margin-top: 0.1cm;
+}
+.encab5{
+    width: 32cm;
+    text-align: center;
+    font:  bold 10px/8px Arial, serif;
+    margin-bottom: 0.5cm;
+    margin-top: 0.1cm;
+}
+
+.titulos{
+    display: grid;
+    margin-left: 3cm; 
+    grid-template-columns: 0.7cm 1.7cm 6.8cm 2.1cm 2.1cm 2.1cm 2.1cm 2.1cm 2.1cm ;
+    font:  bold 11px/14px Arial, serif;
+    text-align: center;
+}
+
+.bordT{
+    border-left: 0.5mm solid;
+    border-right: 0.5mm solid;
+    border-top: 0.5mm solid;
+    border-bottom: 0.5mm solid;
+    padding-top: 0.5mm;
+}
+.bordTotales{
+    display: grid;
+    margin-left: 3.0cm;
+    grid-template-columns: 9.2cm 2.1cm 2.1cm 2.1cm 2.1cm 2.1cm 2.1cm;
+    font:  bold 11px/14px Arial, serif;
+    text-align: center;
+}
+.totalesP{
+    display: grid;
+    margin-left: 3.0cm;
+    grid-template-columns: 9.2cm 2.1cm;
+    font:  bold 11px/14px ArialBlack ,  serif;
+    text-align: center;
+}
+.bordTF{
+    border-right: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    border-left: 0.3mm solid; 
+    text-align: center;
+    padding-top: 0.2cm;
+}
+
+.filaD{  
+    display: grid;
+    margin-left: 3cm;
+    grid-template-columns: 0.7cm 1.7cm 6.8cm 2.1cm 2.1cm 2.1cm 2.1cm 2.1cm 2.1cm ;
+    font:  bold 11px/14px Arial, serif;
+}
+
+.titulos2{
+    display: grid;
+    margin-left: 5cm; 
+    grid-template-columns: 1.6cm 6.5cm 1.9cm 1.9cm 1.9cm 1.9cm 1.9cm;
+    font:  bold 11px/14px ArialBlack, serif;
+    text-align: center;
+    margin-top: 5cm;
+}
+.filaT2{
+    display: grid;
+    margin-left: 5cm;
+    grid-template-columns: 1.6cm 6.5cm 1.9cm 1.9cm 1.9cm 1.9cm 1.9cm;
+    font:  bold 11px/14px Arial, serif;
+}
+.lineaF{
+   display: grid;
+   margin-top: 3cm;
+   margin-left: 5cm;
+}

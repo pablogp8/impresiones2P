@@ -1,3 +1,124 @@
-<p>
-  control-che works!
-</p>
+<div class="OFICIO2">
+  <div class="encab1">
+    <div class="D11">
+      UNIVERSIDAD DE SAN CARLOS DE GUATEMALA
+      <br>PLAN DE PRESTACIONES
+    </div>
+    <div class="D12">
+      PÁGINA: 1
+      <br>FORMA: PP-05-11
+    </div>
+  </div>
+  <div class="encab2">
+    PLANILLA DE TRAMITE No. ***7***
+    <br>CHEQUES PARA REVISIÓN:
+    <br>GUATEMALA, 19 DE FEBRERO DE 2019
+  </div>
+  <div class="encab3">
+    "CONTROL DE CHEQUES PAGADOS PRESTAMOS INMEDIATOS"
+  </div>
+  <div class="encab4">
+    Fecha:
+  </div>
+  <div class="encab5">
+    CIFRAS EN QUETZALES -Q-
+  </div>
+  <!--<div class="cuerpo">-->
+  <div class="titulos">
+    <div class="no bordT">No.</div>
+    <div class="cheq bordT">CHEQ.</div>
+    <div class="NOMBRE bordT">NOMBRE</div>
+    <div class="prestamo bordT">PRESTAMO</div>
+    <div class="seguro bordT">SEGUROS</div>
+    <div class="compen bordT">COMPENS.</div>
+    <div class="reintegro bordT">REINTEG.</div>
+    <div class="VARIOS bordT">VARIOS</div>
+    <div class="ref bordT">REF.</div>
+    <!-- </div>-->
+  </div>
+
+  <!--<div class="detalle" >-->
+  <div class="filaD" *ngFor="let n of numeros; let i=index">
+    <div class="nof bordTF">{{i+1}}</div>
+    <div class="cheq bordTF "> </div>
+    <div class="nombre bordTF"> </div>
+    <div class="prestamo bordTF"> </div>
+    <div class="seguro bordTF"> </div>
+    <div class="compens bordTF"> </div>
+    <div class="reint bordTF"> </div>
+    <div class="vari bordTF"> </div>
+    <div class="ref bordTF"> </div>
+  </div>
+  <div class="bordTotales">
+    <div class="totales bordTF">TOTALES</div>
+    <div class="prest bordTF"></div>
+    <div class="seg bordTF"></div>
+    <div class="compen bordTF"></div>
+    <div class="reint bordTF"></div>
+    <div class="varios bordTF"></div>
+    <div class="ref bordTF"></div>
+    <!--</div>-->
+  </div>
+  <div class="totalesP">
+    <div class="totalP bordTF">TOTAL PAGADO</div>
+    <div class="totPre bordTF"></div>
+  </div>
+  <div class="titulos2">
+    <div class="Fecha bordT">FECHA</div>
+    <div class="Fecha bordT">DESCRIPCION</div>
+    <div class="Fecha bordT">PRESTAMO</div>
+    <div class="Fecha bordT">SEGUROS</div>
+    <div class="Fecha bordT">COMPENS.</div>
+    <div class="Fecha bordT">REINTEG.</div>
+    <div class="Fecha bordT">VARIOS</div>
+  </div>
+  <div class="f1 filaT2">
+    <div class="fecha bordTF"></div>
+    <div class="desc bordTF">SALDO INICIAL</div>
+    <div class="PREST bordTF"></div>
+    <div class="SEG bordTF"></div>
+    <div class="COMP bordTF"></div>
+    <div class="REINT bordTF"></div>
+    <div class="VAR bordTF"></div>
+  </div>
+  <div class="f2 filaT2">
+    <div class="fecha bordTF"></div>
+    <div class="desc bordTF">(+)CHEQUES RECIBIDOS</div>
+    <div class="PREST bordTF"></div>
+    <div class="SEG bordTF"></div>
+    <div class="COMP bordTF"></div>
+    <div class="REINT bordTF"></div>
+    <div class="VAR bordTF"></div>
+  </div>
+  <div class="f3 filaT2">
+    <div class="fecha bordTF"></div>
+    <div class="desc bordTF">SUBTOTAL</div>
+    <div class="PREST bordTF"></div>
+    <div class="SEG bordTF"></div>
+    <div class="COMP bordTF"></div>
+    <div class="REINT bordTF"></div>
+    <div class="VAR bordTF"></div>
+  </div>
+  <div class="f4 filaT2">
+    <div class="fecha bordTF"></div>
+    <div class="desc bordTF">(-)CHEQUES RECIBIDOS</div>
+    <div class="PREST bordTF"></div>
+    <div class="SEG bordTF"></div>
+    <div class="COMP bordTF"></div>
+    <div class="REINT bordTF"></div>
+    <div class="VAR bordTF"></div>
+  </div>
+  <div class="f5 filaT2">
+    <div class="fecha bordTF"></div>
+    <div class="desc bordTF"><strong>SALDO FINAL EN TESORERIA</strong></div>
+    <div class="PREST bordTF"></div>
+    <div class="SEG bordTF"></div>
+    <div class="COMP bordTF"></div>
+    <div class="REINT bordTF"></div>
+    <div class="VAR bordTF"></div>
+  </div>
+  <div class="lineasFirma">
+    <div class="lineaF"> <pre>F.___________________________________               F.___________________________________ </pre></div>
+    
+  </div>
+</div>

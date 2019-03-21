@@ -62,8 +62,8 @@
       </div>
     </div>
     <div class="detalle" >
-      <div class="filaD" >
-        <div class="nof bordTF">1</div>
+      <div class="filaD" *ngFor = "let n of hola; let i=index" >
+        <div class="nof bordTF">{{i+1}}</div>
         <div class="registrof bordTF"> 25487</div>
         <div class="solicitudf bordTF">25</div>
         <div class="nombref bordTF">Credito</div>
@@ -78,7 +78,9 @@
         <div class="recibidof bordTF"></div>
         <div class="fechaf bordTF"></div>
       </div>
+      
     </div>
+
   </div>
   <div class="firma">
     _______________________________
