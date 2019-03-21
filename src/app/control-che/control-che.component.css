@@ -103,3 +103,16 @@
    margin-top: 3cm;
    margin-left: 5cm;
 }
+.Master{
+    display: grid;
+    grid-template-columns: 8.9cm 6cm 1.8cm;
+    margin-left: 6cm;
+    margin-top: 1cm;
+}
+
+.cuadrosC{
+    border-left: 0.5mm solid;
+    border-right: 0.5mm solid;
+    border-top: 0.5mm solid;
+    border-bottom: 0.5mm solid;
+}

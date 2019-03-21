@@ -6,6 +6,7 @@ import { SolicitudPComponent } from './solicitud-p/solicitud-p.component';
 import { EjemploComponent } from './ejemplo/ejemplo.component';
 import { ControlCheComponent } from './control-che/control-che.component';
 import { AnalisispreComponent } from './analisispre/analisispre.component';
+import { DescuentosMesComponent } from './descuentos-mes/descuentos-mes.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AnalisispreComponent } from './analisispre/analisispre.component';
     SolicitudPComponent,
     EjemploComponent,
     ControlCheComponent,
-    AnalisispreComponent
+    AnalisispreComponent,
+    DescuentosMesComponent
   ],
   imports: [
     BrowserModule

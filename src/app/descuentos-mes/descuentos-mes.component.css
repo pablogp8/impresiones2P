@@ -1,0 +1,9 @@
+.Carta{
+    width: 210mm;
+    height: 297mm;
+    margin: 1cm 0cm 1cm 1cm;
+}
+.encab1{
+    display: grid;
+    grid-template-columns: 28cm 4cm;
+}
