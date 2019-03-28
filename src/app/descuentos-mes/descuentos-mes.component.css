@@ -5,5 +5,50 @@
 }
 .encab1{
     display: grid;
-    grid-template-columns: 28cm 4cm;
+    margin-left: 2cm;
+    grid-template-columns: 5cm 30cm;
 }
+.encab2{
+    display: grid;
+    margin-left:2cm;
+    margin-top: 0.8cm;
+    grid-template-columns: 25cm;
+    text-align: center;
+}
+.encab3{
+    display:grid;
+    margin-left:2cm;
+    grid-template-rows: 20cm;
+}
+.tit{
+    display: grid;
+    margin-top: 0.8cm;
+    margin-left: 2cm;
+    grid-template-columns: 25cm;
+}
+.titCo{
+    display:grid;
+    margin-left: 2cm;
+    grid-template-columns: 0.7cm 2.0cm 2.05cm 2.05cm 10cm 2.05cm 2.05cm 2.05cm 2.05cm; 
+}
+.bordertitCo{
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.2cm;
+    text-align: center;
+    font:  bold 9px/14px Arial, serif;
+}
+.bordertit1{
+    border-right: 0.3mm solid;
+    border-left: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.2cm;
+    text-align: center;
+    font:  bold 11px/14px Arial, serif;
+}
+ .piePagBo{
+     margin-left: 11cm;
+ }
+
