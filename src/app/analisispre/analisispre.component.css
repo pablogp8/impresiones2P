@@ -1,0 +1,99 @@
+.OFICIO{
+    width: 21.6cm;
+    height: 36cm;
+    margin: 1cm 0cm 1cm 1cm; 
+}
+.Encab1{
+    display: grid;
+    font: bold;
+    grid-template-columns: 16.6cm 5cm ;
+}
+.Encab2{
+    text-align: center;
+    font: bold 16px/14px serif;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+.E3{
+    display: grid;
+    grid-template-columns: 2cm 5cm ;
+
+}
+.Tabla{
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+.Titulos{
+    display: grid;
+    grid-template-columns: 9.8cm 1cm 9.8cm 1cm ;
+    font:  bold 11px/14px serif;
+    border-left: 0.3mm solid;
+    text-align: center;
+}
+.borde{
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.2cm;
+}
+
+.Filas{
+    display: grid;
+    grid-template-columns: 9.8cm 1cm 9.8cm 1cm ;
+    font:  bold 11px/14px serif;
+    border-left: 0.3mm solid;
+    text-align: center;
+    
+}
+.borde2{
+    border-right: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    text-align: center;
+    padding-top: 0.1cm;
+}
+.Titulos2{
+    display: grid;
+    grid-template-columns: 21.6cm ;
+    font:  bold 11px/14px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+.Master{
+    display: grid;
+    grid-template-columns: 3cm 13cm 5.6cm;
+}
+.borde3{
+    border-right: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 40px;
+}
+.SubEncab{
+    display: grid;
+    font: bold;
+    border-right: 0.3mm solid;
+    grid-template-columns: 12cm 5cm ;
+    height: 40px;
+}
+.SubEncab2{
+    display: grid;
+    font: bold;
+    border-right: 0.3mm solid;
+    grid-template-columns: 7cm 10cm 2cm;
+    height: 40px;
+}
+.borde4{
+    border-right: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+}
+.Master2{
+    display: grid;
+    grid-template-columns: 19cm 2.6cm;
+}
+.Master3{
+    display: grid;
+    grid-template-columns:5.6cm 10cm 5.99cm;
+}
+.Col2{
+
+}
