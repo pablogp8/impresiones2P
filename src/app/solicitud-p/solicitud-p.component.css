@@ -1,0 +1,290 @@
+.OFICIO{
+    width: 21.6cm;
+    height: 33cm;
+    margin: 3cm 0cm 1cm 2cm; 
+}
+.encab1{
+    display: grid;
+    grid-template-columns: 25cm 4cm;
+}
+.encab6{
+    display: grid;
+    grid-template-columns: 6cm;
+}
+.encab2{
+    
+        width: 28cm;
+        text-align: center;
+        font:  bold 16px/14px Arial, serif;
+        margin-bottom: 1.5cm;
+        margin-top: 1cm;
+   }
+
+.encab3{
+    width: 28cm;
+    text-align: right;
+    font:  bold 16px/14px Arial, serif;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+
+.Tabla{
+    
+    margin-bottom: 2cm;
+    
+}
+
+
+
+.titulo{
+    display: grid;
+    grid-template-columns: 12cm;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+
+
+.borde{
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+}
+.bordeBlanco{
+    width: 10cm;
+    height: 35px;
+}
+
+.tituloFecha{
+    display: grid;
+    grid-template-columns: 4cm 5cm 5cm;
+    font:  bold 15px/17px serif;
+   
+    text-align: left;
+}
+
+.tituloPrestamo{
+    display: grid;
+    grid-template-columns: 10.5cm 10.5cm 6cm;
+    font:  bold 15px/17px serif;
+   
+    text-align: right;
+}
+.bordeFechaG{
+    border-left: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+    
+}
+.bordeFechaD{
+    
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+}
+.bordeFechaDe{
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+}
+
+
+.tituloT2{
+    display: grid;
+    grid-template-columns: 9cm 18cm ;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: center;
+}
+
+.tituloFirma{
+    display: grid;
+    grid-template-columns: 9cm 9cm ;
+    font:  bold 15px/17px serif;
+    
+    text-align: center;
+}
+
+.Detalle{
+    display: grid;
+    grid-template-columns: 5.33cm 5.35cm 5.45cm 5.45cm 5.42cm;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: center;
+}
+.bordeD{
+    border-right: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+}
+
+.bordeID{
+    border-left: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+}
+.bordeID2{
+    border-right: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+    height: 35px;
+}
+.Detalles{
+    display: grid;
+    grid-template-columns: 27cm;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: center;
+}
+.DetallesID{
+    display: grid;
+    grid-template-columns: 20cm 7.03cm;
+    font:  bold 15px/17px serif;
+   
+    text-align: left;
+}
+
+.TablaD{
+    margin-bottom: 0cm;
+    
+}
+.DetalleT3{
+    display: grid;
+    grid-template-columns: 5.35cm 16.25cm 5.4cm;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+.DetalleDatosP{
+    display: grid;
+    grid-template-columns: 13.5cm 13.5cm;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+
+.FinP{
+    width: 27cm;
+    text-align: center;
+    font:   16px/14px Arial, serif;
+    margin-bottom: 1.5cm;
+    margin-top: 7cm;
+}
+.firma{
+    border-left: 0.3mm solid;
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 1.5cm;
+    height: 45px;
+}
+
+.bordePrestamo{
+    border-left: 0.3mm solid;
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0.1cm;
+}
+
+.Master{
+    display: grid;
+    grid-template-columns: 4.5cm 4.5cm ;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+.Master2{
+    display: grid;
+    grid-template-columns: 8cm 13cm 9cm;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+.Master3{
+    display: grid;
+    grid-template-columns: 6.5cm 6.5cm ;
+    font:  bold 15px/17px serif;
+    border-left: 0.3mm solid;
+    text-align: left;
+}
+
+.bordeMaster{
+   height: 15px;
+}   
+
+.TituloVertical{
+    display: grid;
+    grid-template-columns: 0.7cm 27cm ;
+    font:  bold 15px/17px serif;
+    
+    text-align: center;
+}
+
+
+
+.bordeVerticalId{
+    border-right: 0.3mm solid;
+   
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0cm;
+    height: 239px;
+    
+}
+.bordeVertical2Id{
+    
+    padding-top: 0cm;
+    height: 230px;
+    
+}
+
+.bordeVerticalSL{
+    border-right: 0.3mm solid;
+   
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0cm;
+    height: 199px;
+    
+}
+.bordeVertical2Sl{
+    
+    padding-top: 0cm;
+    height: 199px;
+    
+}
+
+.bordeVerticalDP{
+    
+    border-right: 0.3mm solid;
+    border-top: 0.3mm solid;
+    border-bottom: 0.3mm solid;
+    padding-top: 0cm;
+    height: 118px;
+    
+}
+.bordeVerticalDP{
+    
+    padding-top: 0cm;
+    height: 118px;
+    
+}
+
+.Col1{
+    
+    display: grid;
+    font:  bold 13px/15px serif;
+    writing-mode: vertical-lr;
+    
+    transform: rotate(180deg);
+}
