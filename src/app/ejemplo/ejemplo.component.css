@@ -1,74 +1,79 @@
 .OFICIO{
-    width: 32cm;
-    height: 19.6cm;
-    margin: 1cm 0cm 1cm 1cm; 
+    width: 21.6cm;
+    height: 27.9cm;
+    margin: 3cm 0cm 1cm 1cm; 
 }
 .encab1{
     display: grid;
-    grid-template-columns: 28cm 4cm;
+    grid-template-columns: 21cm 5cm;
 }
+
+.encab2{
+    
+    width: 28cm;
+    text-align: center;
+    font:  bold 16px/14px Arial, serif;
+    margin-bottom: 1.5cm;
+    margin-top: 2cm;
+}
+
 
 .encab3{
     width: 32cm;
-    text-align: center;
+    text-align: left;
     font:  bold 16px/14px Arial, serif;
     margin-bottom: 0.5cm;
-    margin-top: 0.5cm;
+    margin-top: 0.5m;   
 }
-.firma{
+
+.texto{
     width: 32cm;
-    text-align: center;
-    margin-top: 0.5cm
-}
-.titulos{
-    display: grid;
-    grid-template-columns: 0.7cm 1.7cm 1.7cm 6.8cm 1.7cm 1.6cm 4.9cm 2.4cm 3.2cm 3.2cm 3.2cm;
-    font:  bold 11px/14px Arial, serif;
-    text-align: center;
-    border-left: 0.3mm solid;
-}
-.Master{
-    display: grid;
-    grid-template-columns: 1.6cm 1.6cm;
-    grid-template-rows: 0.6cm 0.6cm;
-}
-
-
-.bordT{
-    border-right: 0.3mm solid;
-    border-top: 0.3mm solid;
-    border-bottom: 0.3mm solid;
-    padding-top: 0.2cm;
-}
-
-.bordTF{
-    border-right: 0.3mm solid;
-    border-bottom: 0.3mm solid;
-    text-align: center;
-    padding-top: 0.1cm;
-}
-.subT{
-    grid-column:1/3;
-    border-bottom: 0mm solid;
-    padding-top: 0.1cm;
-}
-.nombre, .dependencia, .liquido{
-    padding-top: 0.35cm;
-}
-.detalle{
-    height: 13cm;
-}
-.filaD{
-    display: grid;
-    grid-template-columns: 0.7cm 1.7cm 1.7cm 6.8cm 1.7cm 1.6cm 4.9cm 2.4cm 1.6cm 1.6cm 1.6cm 1.6cm 1.6cm 1.6cm;
-    font:  bold 11px/14px Arial, serif;
-    /*text-align: center;*/
-    border-left: 0.3mm solid;
-}
-.nombref, .dependenciaf{
     text-align: left;
-    padding-left: 0.1cm;
+    font:   16px/14px Arial;
+    margin-bottom: 0.5cm;
+    
+       
+    LINE-HEIGHT:60px;
 }
-.fecha, .recibido, .firmaT{
-    padding-top: 0.1cm
+
+.texto2{
+    width: 32cm;
+    text-align: left;
+    font:   16px/14px Arial;
+    margin-bottom: 0.5cm;
+       
+    LINE-HEIGHT:20px;
+}
+
+
+.contenedor{
+
+    display: grid;
+    grid-template-columns: 1.5cm 20cm;
+    font:  bold 15px/17px serif;
+    
+    text-align: left;
+}
+
+.contenedor2{
+
+    display: grid;
+    grid-template-columns: 15cm 8cm;
+    font:  bold 15px/17px serif;
+     text-align: left;
+}
+
+.contenedor3{
+
+    display: grid;
+    grid-template-columns: 1.5cm 9cm 7cm 6cm;
+    font:  bold 15px/17px serif;
+     text-align: left;
+}
+.contenedorFirma{
+
+    display: grid;
+    grid-template-columns: 5cm 10cm;
+    font:  bold 15px/17px serif;
+     text-align: left;
 }
