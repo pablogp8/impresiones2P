@@ -1,0 +1,77 @@
+.OFICIO{
+    width: 21.6cm;
+    height: 33cm;
+    margin: 3cm 0cm 1cm 1cm; 
+}
+.encab1{
+    display: grid;
+    grid-template-columns: 25cm 4cm;
+}
+.encab2{
+    
+    width: 28cm;
+    text-align: center;
+    font:  bold 16px/14px Arial, serif;
+    margin-bottom: 2cm;
+    margin-top: 2cm;
+    LINE-HEIGHT:20px;
+}
+.division{
+    
+    width: 28cm;
+    text-align: center;
+    font:  bold 16px/14px Arial, serif;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+    
+}
+.divisionlinea{
+    
+    width: 28cm;
+    text-align: left;
+    font:  bold 16px/14px Arial, serif;
+    margin-bottom: 0.5cm;
+    margin-top: 1cm;
+    
+}
+.texto{
+    width: 32cm;
+    text-align: left;
+    font:  16px/14px Arial, serif;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5m; 
+    LINE-HEIGHT:60px;  
+}
+.texto2{
+    width: 32cm;
+    text-align: left;
+    font:  Bold 16px/14px Arial, serif;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5m; 
+    LINE-HEIGHT:30px;  
+}
+.texto3{
+    width: 32cm;
+    text-align: left;
+    font:   16px/14px Arial, serif;
+    margin-bottom: 2cm;
+    margin-top: 0.5m; 
+    LINE-HEIGHT:25px;  
+}
+.firma{
+    
+    width: 28cm;
+    text-align: center;
+    font:   16px/14px Arial, serif;
+    margin-bottom: 3cm;
+    margin-top: 2cm;
+    LINE-HEIGHT:20px;
+}
+.contenedor{
+
+    display: grid;
+    grid-template-columns:  20cm;
+    font:  bold 15px/17px serif;
+    
+    text-align: left;
+}
