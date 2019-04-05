@@ -7,6 +7,7 @@ import { EjemploComponent } from './ejemplo/ejemplo.component';
 import { ControlCheComponent } from './control-che/control-che.component';
 import { AnalisispreComponent } from './analisispre/analisispre.component';
 import { DescuentosMesComponent } from './descuentos-mes/descuentos-mes.component';
+import { SolicitudDeCertificacionDeCuotasComponent } from './solicitud-de-certificacion-de-cuotas/solicitud-de-certificacion-de-cuotas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DescuentosMesComponent } from './descuentos-mes/descuentos-mes.componen
     EjemploComponent,
     ControlCheComponent,
     AnalisispreComponent,
-    DescuentosMesComponent
+    DescuentosMesComponent,
+    SolicitudDeCertificacionDeCuotasComponent
   ],
   imports: [
     BrowserModule

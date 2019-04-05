@@ -1,0 +1,40 @@
+.Carta{
+    width: 21.6cm;
+    height: 27.9cm;
+    margin: 1cm 0cm 1cm 1cm;
+}
+.encab1{
+    display:grid;
+    grid-template-rows: 3cm;
+    text-align:center;
+    font: bold 18px/16px Arial, serif;
+
+}
+.encab2{
+    display:grid;
+    grid-template-rows: 3cm;
+    font: bold 14px/12px Arial, serif;
+    text-align: right
+}
+.encab3{
+    display: grid;
+    grid-template-rows: 2cm 0.5cm 1cm 0.5cm 2cm 0.5cm 1.2cm 1cm;
+    font: bold 12px/10px Arial, serif;
+    text-align: left;
+    margin-left: 2cm;
+}
+.encab4{
+    display: grid;
+    grid-template-rows: 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm;
+    font: bold 14px/12px Arial, serif; 
+    text-align: right;
+    margin-right: 5cm; 
+}
+.encab5{
+    display: grid;
+    grid-template-rows:2cm; 
+    font: bold 14px/12px Arial, serif;
+    text-align: center; 
+    margin-right: 3cm;
+}
+
