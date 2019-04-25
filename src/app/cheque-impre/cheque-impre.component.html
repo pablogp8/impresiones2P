@@ -1,0 +1,82 @@
+<div *ngFor="let pagina of chequeU.paginas">
+			<div id="print-section" class="ocultarPrint">
+			<div class="p1">
+				<div class="fecha">{{chequeU.datos.fecha_letras}}</div>
+				<div class="montoNum">**{{chequeU.datos.liquido_formateado}}**</div>
+			</div>
+			<div class="p2">{{chequeU.datos.nombre_deudor}}</div>
+			<div class="p3">**{{chequeU.datos.liquido_letras}}**</div>
+			<div class="p4">
+				<div *ngFor="let cuenta of pagina.pagina">
+					<div *ngIf=" cuenta.tipo =='CuentaA'">
+						<div class="cuentaMadre">
+							<div class="voucher primariaC">
+								<div class="cuenta">{{cuenta.cuenta.codigo_superior}}</div>
+								<div class="descripcion">{{cuenta.cuenta.nombre_superior}}</div>
+								<div class="debe"></div>
+								<div class="haber"></div>
+							</div>
+							<div class="voucher secundarioC">
+								<div class="cuenta">{{cuenta.cuenta.subcuentas.uno.codigo}}</div>
+								<div class="descripcion">{{cuenta.cuenta.subcuentas.uno.nombre}}
+									<div class="comentario">{{cuenta.cuenta.subcuentas.uno.comentario}}</div>
+								</div>
+								<div class="debe">{{cuenta.cuenta.subcuentas.uno.debe}}</div>
+								<div class="haber">{{cuenta.cuenta.subcuentas.uno.haber}}</div>
+							</div>
+						</div>
+					</div>
+					<div *ngIf = "cuenta.tipo == 'CuentaB'">
+						<div class="cuentaMadre">
+							<div class="voucher primariaC">
+								<div class="cuenta">{{cuenta.cuenta.codigo_superior}}</div>
+								<div class="descripcion">{{cuenta.cuenta.nombre_superior}} </div>
+								<div class="debe"></div>
+								<div class="haber"></div>
+							</div>
+							<div class="voucher secundarioC">
+								<div class="cuenta">{{cuenta.cuenta.subcuentas.uno.codigo}}</div>
+								<div class="descripcion">{{cuenta.cuenta.subcuentas.uno.nombre}}
+									<div class="comentario">{{cuenta.cuenta.subcuentas.uno.comentario}}</div>
+								</div>
+								<div class="debe">{{cuenta.cuenta.subcuentas.uno.debe}}</div>
+								<div class="haber">{{cuenta.cuenta.subcuentas.uno.haber}}</div>
+							</div>
+						</div>
+					</div>
+					<div *ngIf = "cuenta.tipo === 'CuentasC'">
+						<div class="cuentaMadre">
+							<div class="voucher primariaC">
+								<div class="cuenta">{{cuenta.cuenta.codigo_superior}}</div>
+								<div class="descripcion">{{cuenta.cuenta.nombre_superior}}</div>
+								<div class="debe"></div>
+								<div class="haber"></div>
+							</div>
+							<div class="voucher secundarioC">
+								<div class="cuenta">{{cuenta.cuenta.subcuentas.uno.codigo}}</div>
+								<div class="descripcion">{{cuenta.cuenta.subcuentas.uno.nombre}}
+									<div class="comentario">{{cuenta.cuenta.subcuentas.uno.comentario}}</div>
+								</div>
+								<div class="debe">{{cuenta.cuenta.subcuentas.uno.debe}}</div>
+								<div class="haber">{{cuenta.cuenta.subcuentas.uno.haber}}</div>
+							</div>
+							<div class="voucher secundarioC">
+								<div class="cuenta">{{cuenta.cuenta.subcuentas.dos.codigo}}</div>
+								<div class="descripcion">{{cuenta.cuenta.subcuentas.dos.nombre}}
+									<div class="comentario">{{cuenta.cuenta.subcuentas.dos.comentario}}</div>
+								</div>
+								<div class="debe">{{cuenta.cuenta.subcuentas.dos.debe}}</div>
+								<div class="haber">{{cuenta.cuenta.subcuentas.dos.haber}}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="p5">
+				<div class="debe">{{pagina.debe}}</div>
+				<div class="haber">{{pagina.haber}}</div>
+			</div>
+			<div class = "nuevaPagina"></div>		
+		</div>
+	
+</div>
